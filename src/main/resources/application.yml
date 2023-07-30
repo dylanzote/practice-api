@@ -1,0 +1,14 @@
+server:
+  port: 7070
+
+spring:
+  datasource:
+    username: postgres
+    password: zote
+    url: jdbc:postgresql://localhost:5432/test
+    hikari:
+      schema: public
+  jpa:
+    showSql: true
+    hibernate:
+      ddlAuto: update
